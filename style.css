@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+
+body{
+    background: url("/assets/images/background-pattern-desktop.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color:  hsl(275, 100%, 97%);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans';
+}
+
+.main-box{
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.question:not(:last-of-type){
+    border-bottom: 1px solid hsla(292, 16%, 49%, 0.3);
+}
+
+.top{
+    display: flex;
+}
+.top img{
+    margin-right: 10px;
+}
+
+.top h1{
+    color:  hsl(292, 42%, 14%);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title p{
+    color:  hsl(292, 42%, 14%);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.title p:hover{
+   color:  hsl(292, 75%, 50%);
+}
+
+.title img{
+    cursor: pointer;
+}
+
+
+.answer p{
+    color:   hsl(292, 16%, 49%);
+    font-weight: 400;
+}
